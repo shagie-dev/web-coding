@@ -12,8 +12,10 @@ body {
 .grid-container {
   display: -ms-grid;
   display: grid;
-  padding: 5px;
-      grid-template-areas: "header header header header header header" "menu menu main main right-menu right-menu" "footer footer footer footer footer footer";
+  padding: 0px;
+      grid-template-areas: "header header header header header header"
+ "menu menu main main right-menu right-menu"
+ "footer footer footer footer footer footer";
 }
 
 .grid-container .header {
@@ -70,7 +72,11 @@ body {
 
 @media (max-width: 600px) {
   .grid-container {
-        grid-template-areas: "header header header header header header" "menu menu menu menu menu menu" "main main main main main main" "right-menu right-menu right-menu right-menu right-menu right-menu" "footer footer footer footer footer footer";
+        grid-template-areas: "header header header header header header"
+ "menu menu menu menu menu menu"
+ "main main main main main main"
+ "right-menu right-menu right-menu right-menu right-menu right-menu"
+ "footer footer footer footer footer footer";
   }
   .grid-container .menu, .grid-container .main, .grid-container .right-menu {
     text-align: center;
