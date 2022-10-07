@@ -1,0 +1,68 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.item-one, .item-two, .item-three, .item-four, .item-five, .item-six {
+  padding: 30px;
+  border: none;
+  margin: 0px;
+  background-color: #e4e4e4;
+  flex: 100%;
+}
+
+.item-one {
+  background-color: #aaa;
+}
+
+.item-two {
+  background-color: #bbb;
+}
+
+.item-three {
+  background-color: #ccc;
+}
+
+.item-four {
+  background-color: #ddd;
+}
+.item-five {
+  background-color: #d5d5d5;
+}
+
+.item-six {
+  background-color: #eee;
+}
+@media (min-width: 992px) { .item-one, .item-two, .item-three, .item-four, .item-five, .item-six
+  {
+    flex: 16%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { .item-one, .item-two, .item-three, .item-four, .item-five, .item-six
+  {
+    flex: 25%;
+  }
+}
+
+@media (min-width: 585px) and (max-width: 767px) { .item-one, .item-two, .item-three, .item-four, .item-five, .item-six
+  {
+    flex: 50%;
+  }
+}
+
+@media (max-width: 584px)  { .item-one, .item-two, .item-three, .item-four, .item-five, .item-six
+  {
+    flex: 100%;
+  }
+}

@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+.header {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.grid-container .menu {
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  height: 300px;
+  font-size: x-large;
+}
+
+.grid-container .main {
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
+  background-color: #bbb;
+  padding: 10px;
+  text-align: center;
+  height: 300px;
+  font-size: x-large;
+}
+
+.grid-container .right-menu {
+  -webkit-box-flex: 33.33%;
+      -ms-flex: 33.33%;
+          flex: 33.33%;
+  background-color: #d4d4d4;
+  padding: 10px;
+  text-align: center;
+  height: 300px;
+  font-size: x-large;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 400px;
+  }
+}
+
+.footer {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */

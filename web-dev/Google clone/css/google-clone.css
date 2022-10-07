@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+}
+
+.logo {
+    margin-top: 100px;
+    
+    
+}
+.main-logo {
+    margin-bottom: 20px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.search-logo {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 24px;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+    margin-bottom: 30px;
+
+}
+
+.google-search-button {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    line-height: 36px;
+    padding: 0px 14px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+ 
+
+} 
+
+.google-search-btn {
+
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    line-height: 36px;
+    padding: 0px 14px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+}
