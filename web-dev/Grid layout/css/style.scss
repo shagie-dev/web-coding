@@ -13,11 +13,12 @@ body {
 
 .grid-container {
   display: grid;
-  padding: 5px;
   grid-template-areas: 
   "header header header header header header"
   "menu menu main main right-menu right-menu"
   "footer footer footer footer footer footer";
+  row-gap: 5px;
+  column-gap: 5px;
 
   .header {
     grid-area: header;
@@ -64,6 +65,7 @@ body {
       "main main main main main main"
       "right-menu right-menu right-menu right-menu right-menu right-menu"
       "footer footer footer footer footer footer";
+      row-gap: 5px;
 
       .menu, .main, .right-menu {
         text-align: center;
